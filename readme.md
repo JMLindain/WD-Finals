@@ -112,6 +112,10 @@ Feature Page: [https://github.com/JMLindain/WD-Seatwork-4]
 
 Hero Gallery: [https://github.com/JMLindain/WD-HandsOn2]
 
+### WakaTime Integration:
+
+View my coding stats on WakaTime: [[My Profile Link]](https://wakatime.com/@JMLindain)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.

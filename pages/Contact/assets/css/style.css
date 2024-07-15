@@ -1,0 +1,174 @@
+/* General styles from your CSS */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    position: relative;
+    background: transparent;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    background: #010e1b;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+}
+
+@media (min-width: 1024px) {
+    body::before {
+        background-attachment: fixed;
+    }
+}
+
+a {
+    color: #12d640;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #12d640;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #09203a;
+    position: relative;
+    z-index: 1;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header .logo span {
+    color: #12d640;
+}
+
+.header .navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+    font-size: 30px;
+}
+
+.header .navbar a:hover, .header .navbar a.active {
+    color: #12d640;
+    transform: scale(1.1); /* Grow slightly on hover */
+}
+
+.header .bx {
+    display: none;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 100px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.contact .heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .heading span {
+    color: #12d640;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    margin: 20px;
+    width: 600px;
+    text-align: left;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 20px 10px rgba(18, 214, 64, 0.5); /* Glowy green effect */
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box form input, .contact-box form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-box form input:focus, .contact-box form textarea:focus {
+    background: rgba(255, 255, 255, 0.2);
+    color: #000;
+    outline: none;
+}
+
+.contact-box form button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1c7d32;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-box form button:hover {
+    background-color: #12d640;
+    transform: scale(1.1);
+}
+
+/* Footer styles */
+.footer {
+    background: #09203a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer .fsoc a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.footer .fsoc a:hover {
+    color: #12d640;
+    transform: scale(1.1); /* Grow slightly on hover */
+}

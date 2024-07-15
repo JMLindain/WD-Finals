@@ -1,66 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website Title</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roobert', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      background-image: url('JM HOME BG.png');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; /* Ensures the background image does not scroll */
-      color: #3B3B3B;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Makes the body take up the full viewport height */
-    }
-
-    .button-28 {
-      appearance: none;
-      background-color: transparent;
-      border: 2px solid white;
-      border-radius: 15px;
-      box-sizing: border-box;
-      color: white;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: normal;
-      min-height: 60px;
-      min-width: 0;
-      outline: none;
-      padding: 16px 24px;
-      text-align: center;
-      text-decoration: none;
-      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      will-change: transform;
-      margin-top: 500px;
-    }
-
-    .button-28:hover {
-      color: #fff;
-      background-color: #1A1A1A;
-      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-      transform: translateY(-2px);
-    }
-
-    .button-28:active {
-      box-shadow: none;
-      transform: translateY(0);
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css"  rel="stylesheet">
 </head>
 <body>
-  <button class="button-28" role="button" onclick="window.location.href = 'your-next-page.html';">Button 28</button>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+    <div class="container">
+      <h1><a href="index.html">Jerico Lindain</a></h1>
+      <h2 class="subtitle">I'm a <span class="typing"></span></h2>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html"><span>Home</span></a></li>
+          <li><a href="./pages/About/index.html"><span>About</span></a></li>
+          <li><a href="./pages/Projects/index.html"><span>Projects</span></a></li>
+          <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing" target="_blank"><span>Resume</span></a></li>
+          <li><a href="./pages/Contact/index.html"><span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <img src="./assets/img/profile.JPG" alt="Profile Image" class="profile-img">
+      <div class="social-links">
+        <a href="https://github.com/JMLindain" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </header><!-- End Header -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>

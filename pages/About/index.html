@@ -2,57 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <title>About Page</title>
 </head>
 <body>
     <header class="header">
-        <a href="" class="logo">Jerico <span>Lindain</span></a>
+        <a href="" class="logo">Jerico Lindain</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="../../index.html">Home</a>
+            <a href="@" class="active">About</a>
+            <a href="../Projects/index.html">Projects</a>
+            <a href="../Credits/index.html">Credits</a>
+            <a href="../Contact/index.html">Contact</a>
+        </nav>
+    </header>
 
-    <i class="bx bx-meni" id="menu-icon"></i>
-
-    <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="./pages/page1/index.html">About</a>
-        <a href="./pages/page2/index.html">Projects</a>
-        <a href="./pages/page3/index.html">Credits</a>
-        <a href="./pages/page4/index.html">Contact</a>
-    </nav>
-</header>
-
-<section class="home" id="home">
-    <div class="home-content">
-        <h1>Hello! I'm <span>Jerico</span></h1>
-        <h3>A <span>Cybersecurity Student</span></h3>
-        <p>A freshie student of FEU Institute of Technology under the major of Bachelor of Science in Information Technology specializing in Cybersecuity. A passionate aspiring IT professional, with a heart.</p>
-        <div class="btn-group">
-            <a href="" class="btn">Check my CV</a>
+    <section class="about" id="about">
+        <div class="ab-img">
+            <img src="./assets/img/picture.jpg" alt="About Image">
         </div>
-
+        <div class="ab">
+            <h2 class="hd">About<span> Me</span></h2>
+            <h3>Information Technology Student</h3>
+            <p>I am a highly driven and results-focused Information Technology student specializing in Cybersecurity. I am passionate about learning digital security and protecting data integrity. I thrive in collaborative team settings and excel in agile and fast-paced environments. My proactive nature and adaptability to the latest security trends and technologies underscore my commitment to continuous learning and making a meaningful impact in the cybersecurity field.
+            </p>
         </div>
-        <div class="home-img">
-            <img src="./assets/img/home.jpg" alt="">
+    </section>
+
+    <footer class="footer">
+        <div class="ftext">
+            <div class="fsoc">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
         </div>
-</section>
-
-<footer class="footer" >
-    <div class="ftext">
-        <div class="fsoc">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-twitter' ></i></a>
-            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-        </div>
-        <h1>Built with love, <span>caffeine,</span> and a sprinkle of code magic</h1>
-        <p>The content provided is intended for educational purposes only.</p>
-    </div>
-</footer>
-
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <script src="./assets/js/scripts.js"></script>
+    </footer>
 </body>
 </html>
