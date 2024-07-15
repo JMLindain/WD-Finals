@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-HandsOn2)
+![](https://visit-counter.vercel.app/counter.png?page=JMLindain/WD-Finals)
 
 ---
 
@@ -88,6 +88,30 @@ The primary purpose of this project is to create an online portfolio that highli
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
+### File Structure Explanation:
+
+- index.html: Main landing page of the website.
+- style.css: Directory containing CSS files for styling.
+- img: For storing project images and icons.
+
+### Deployment Instructions:
+
+- Go to my repository: https://github.com/JMLindain/WD-Finals
+Go to actions and select the deploy link.
+
+- Or click this instead: https://yien26.github.io/WD-FinalProject-Cordero/
+
+### Project repositories:
+Note: This can also be viewed in the portfolio website
+
+Seatwork 2: [https://github.com/JMLindain/WD-SEATWORK-2]
+
+Headers&Footers: [https://github.com/JMLindain/WD-SEATWORK-3]
+
+Feature Page: [https://github.com/JMLindain/WD-Seatwork-4]
+
+Hero Gallery: [https://github.com/JMLindain/WD-HandsOn2]
 
 
 ## Rules, Practices and Principles
