@@ -100,7 +100,6 @@ The primary purpose of this project is to create an online portfolio that highli
 - Go to my repository: https://github.com/JMLindain/WD-Finals
 Go to actions and select the deploy link.
 
-- Or click this instead: https://yien26.github.io/WD-FinalProject-Cordero/
 
 ### Project repositories:
 Note: This can also be viewed in the portfolio website
